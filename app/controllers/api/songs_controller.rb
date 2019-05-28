@@ -19,17 +19,7 @@ class Api::SongsController < ApplicationController
     render json: song
   end
 
-  def edit
-
-  end
-
-  # def update
-  #   song = Song.find(params[:id])
-  #   render json: song
-  # end
-
   # def delete
-  #
   # end
 
    private

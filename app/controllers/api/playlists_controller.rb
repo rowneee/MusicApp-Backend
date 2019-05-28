@@ -1,4 +1,5 @@
 class Api::PlaylistsController < ApplicationController
+
   def index
     playlists = Playlist.all
     render json: playlists
@@ -9,19 +10,15 @@ class Api::PlaylistsController < ApplicationController
     render json: playlist
   end
 
-  def new
-    playlist = Playlist.new
-  end
-  #
   def create
-    playlist = Playlist.create(songparams)
+    playlist = Playlist.create(playlistparams)
     render json: playlist
   end
 
-  def update
-    playlist = Playlist.find(params[:id])
-    render json: playlist
-  end
+  # def update
+  #   playlist = Playlist.find(params[:id])
+  #   render json: playlist
+  # end
 
   # def destroy
   #   playlist = Playlist.find(params[:id])

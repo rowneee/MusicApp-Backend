@@ -18,3 +18,14 @@ song4 = Song.create(name: "The Palisades", artist: "Childish Gambino", album: "K
 song5 = Song.create(name: "Poke", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
 song6 = Song.create(name: "Late Night In Kauai", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
 song7 = Song.create(name: "V.3005", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+
+
+user1 = User.create(name: "Roni", password_digest: 12345)
+user2 = User.create(name: "Alex", password_digest: 12345)
+user3 = User.create(name: "Vera", password_digest: 12345)
+user4 = User.create(name: "Chris", password_digest: 12345)
+user5 = User.create(name: "Jeff", password_digest: 12345)
+
+playlist1 = Playlist.create(user_id: 1, name: "Summer")
+playlist2 = Playlist.create(user_id: 1, name: "Winter")
+playlist3 = Playlist.create(user_id: 1, name: "Spring")
