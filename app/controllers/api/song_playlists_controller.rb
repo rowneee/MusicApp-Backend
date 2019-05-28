@@ -6,12 +6,12 @@ class  Api::SongPlaylistsController < ApplicationController
   end
 
   def show
-    songplaylist = Song.find(params[:id])
+    songplaylist = SongPlaylist.find(params[:id])
     render json: songplaylist
   end
 
   def create
-    songplaylist = Song.create(spparams)
+    songplaylist = SongPlaylist.create(spparams)
     render json: songplaylist
   end
 
