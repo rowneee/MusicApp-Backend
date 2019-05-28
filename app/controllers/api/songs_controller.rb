@@ -28,9 +28,9 @@ class Api::SongsController < ApplicationController
   #   render json: song
   # end
 
-  def delete
-
-  end
+  # def delete
+  #
+  # end
 
    private
 
