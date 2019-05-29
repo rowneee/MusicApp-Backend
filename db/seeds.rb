@@ -11,13 +11,13 @@
 #
 # data.songs.each {|song| Song.create(name: song.name, artist_name: song.artist)}
 
-song1 = Song.create(name: "Sober", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
-song2 = Song.create(name: "Pop Thieves", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
-song3 = Song.create(name: "Retro (Rough)", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
-song4 = Song.create(name: "The Palisades", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
-song5 = Song.create(name: "Poke", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
-song6 = Song.create(name: "Late Night In Kauai", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
-song7 = Song.create(name: "V.3005", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+cg1 = Song.create(name: "Sober", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+cg2 = Song.create(name: "Pop Thieves", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+cg3 = Song.create(name: "Retro (Rough)", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+cg4 = Song.create(name: "The Palisades", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+cg5 = Song.create(name: "Poke", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+cg6 = Song.create(name: "Late Night In Kauai", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
+cg7 = Song.create(name: "V.3005", artist: "Childish Gambino", album: "Kauai", img_url: "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/STN_MTN_KAUAI_Childish_Gambino.png/220px-STN_MTN_KAUAI_Childish_Gambino.png")
 
 
 user1 = User.create(name: "Roni", password_digest: 12345)
