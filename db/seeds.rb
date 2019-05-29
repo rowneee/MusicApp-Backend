@@ -29,3 +29,9 @@ user5 = User.create(name: "Jeff", password_digest: 12345)
 playlist1 = Playlist.create(user_id: 1, name: "Summer")
 playlist2 = Playlist.create(user_id: 1, name: "Winter")
 playlist3 = Playlist.create(user_id: 1, name: "Spring")
+
+
+sp1 = SongPlaylist.create(playlist_id: playlist1.id, song_id: song1.id)
+sp2 = SongPlaylist.create(playlist_id: playlist2.id, song_id: song2.id)
+sp3 = SongPlaylist.create(playlist_id: playlist3.id, song_id: song3.id)
+sp4 = SongPlaylist.create(playlist_id: playlist3.id, song_id: song4.id)
